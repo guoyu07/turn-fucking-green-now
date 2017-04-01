@@ -16,7 +16,7 @@ if %var% leq 30 GOTO start
 git push origin master
 @echo Mission finished !
 ```
-####用法
+#### 用法
 - [x] %var% 代表日期变量 倒数第三行的30代表日期%var%会从1遍历到31 
 - [x] 如果想让16年2月全绿 你可以把上面倒数第四行April改成February 二月只有28天 那么倒数第三行30就改成27  
 - [x] 第三行的set /a var+=1表示变量每次自增1 你可以把1改成3 这样就不是全绿 :-)
