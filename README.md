@@ -6,7 +6,6 @@
 - [x] 进入命令行运行 test.bat 文件
 ```javascript
 @echo off
-@echo January-31 February-28 March-31 April-30 May-31 June-30 July-31 August -31 September-30 October-31 November-30 December-31
 :start
 set /a var+=1
 echo a >> test.txtgit 
@@ -19,10 +18,10 @@ git push origin master
 #### 用法
 - [x] %var% 代表日期变量 倒数第三行的30代表日期%var%会从1遍历到31 
 - [x] 如果想让16年2月全绿 你可以把上面倒数第四行April改成February 二月只有28天 那么倒数第三行30就改成27  
-- [x] 第三行的set /a var+=1表示变量每次自增1 你可以把1改成3 这样就不是全绿 :-)
+- [x] 第三行的set /a var+=1表示变量每次自增1 你可以把1改成3 这样就不是全绿 
+- [x] 提交次数越多绿色越深 如果想每天提交两次 那就 把第4 5 6行复制粘贴在第6行之后 以此类推 
 
-
-#### 广告来一波 代写本科java毕业设计和论文
+#### 代写本科java毕业设计和论文
 - [x] 要项目源码的可以联系我 如有技术相关问题 还请不吝赐教 qq783808649 
 - [x] 本人计算机专业毕业，基础扎实，熟悉j2ee开发，效率惊人，近期空闲时间多，可代写本科java毕业设计和论文，包括各种web后台管理系统
 - [x] 本人承诺一周内完成任务 满意后付佣金 
